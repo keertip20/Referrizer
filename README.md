@@ -1,3 +1,10 @@
+# web screenshot 
+![localhost_4200_](https://github.com/keertip20/Referrizer/assets/85543872/9727be77-59ec-4068-9f7f-2a264f0f24aa)
+
+
+
+
+
 # InterViewFigma
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
