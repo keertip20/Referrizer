@@ -1,1 +1,732 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.topNav{
+    padding-left:141px ;
+    padding-right:141px ;
+    height: 74px;
+    align-items: center;
+    display: grid;
+    @media (max-width: 1000px) and (min-width: 365px) {
+        padding-left:14px ;  
+        padding-right:14px ;    
+    }
+}
+li{
+    list-style-type: none
+}
+.top{
+font-family: Overpass;
+font-size: 18px;
+font-weight: 600;
+line-height: 22.79px;
+text-align: left;
+color: #6D7287;
+
+
+}
+.banner-top{
+    width: 36.65px;
+height: 31.35px;
+top: 6.32px;
+
+}
+.banner-text{
+    width: 112.94px;
+    height: 18.43px;
+    top: 12.57px;
+    left: 48.34px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.primay-btn{
+padding: 10px 16px 10px 16px;
+gap: 4px;
+color: #4C70F0;
+border-radius: 8px;
+border: 2px solid #4C70F0;
+font-family: Overpass;
+font-size: 14px;
+font-weight: 700;
+line-height: 17.72px;
+text-align: center;
+background: #FFFFFF;
+}
+.secondory-btn{
+    padding: 10px 16px 10px 16px;
+    gap: 4px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: 2px solid #4C70F0;
+    font-family: Overpass;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.72px;
+    text-align: center;
+    font-family: Overpass;
+    white-space: nowrap;
+font-size: 14px;
+font-weight: 700;
+line-height: 17.72px;
+text-align: center;
+background: #4C70F0;
+    }
+    .primaryColor{
+       color:  #4C70F0;
+    }
+    .background{
+        background-image: url('../src/assets/img/bluebg.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width:100%;
+        height:100%;
+        position: relative;
+    }
+    .codeImg{
+        position: absolute;
+        bottom: -70px;
+        left: 28%;
+
+        @media (max-width: 1000px) and (min-width: 355px) {
+            bottom: 230px;
+            left: 15%;
+        }
+        
+       
+    }
+    .imgcod{
+        position: relative;
+    }
+    .dotim{
+        position: absolute;
+        top:-19px;
+        width: 94.5%;
+        padding-left: 30px;
+        margin-left: 17px;
+        margin-right: 17px;
+        border-radius: 5px 5px 0 0;
+        @media (max-width: 1000px) and (min-width: 355px) {
+            width: 75%;
+            left: 12.2px;
+            height: 15px;
+            top:-11px;
+        }
+    }
+    .codeDotImgThre{
+        @media (max-width: 1000px) and (min-width: 355px) {
+            width: 25px;
+            height: 9px; 
+            position: absolute;
+            left: 15px; 
+            top:4px
+        }
+      
+    }
+    .awarddiv{
+        border-radius: 20px;
+        border: 10px solid rgba(76,112,240, 0.90);
+        position: absolute;
+        width: 200px;
+        height: 80px;
+        right: 150px;
+        top:350px;
+        text-align: center;
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Horizontally center content */
+        align-items: center; /* Vertically center content */
+        gap: 6px;
+
+        @media (max-width: 1000px) and (min-width: 355px) {
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+            border: 5px solid rgba(76,112,240, 0.90);
+            gap: 2px;
+            left: 40px;
+            top:500px;
+        }
+    }
+    .arIMg{
+        width: 25px;
+        height: 65px;
+    }
+    .freeDiv{
+        border-radius: 20px;
+        border: 10px solid rgba(76,112,240, 0.90);
+        position: absolute;
+        width: 294.93px;
+        height: 110px;
+        right: 100px;
+        bottom:70px;
+        text-align: center;
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Horizontally center content */
+        align-items: center; /* Vertically center content */
+        gap: 6px;
+        @media (max-width: 1000px) and (min-width: 355px) {
+            width: 160.6px;
+            height: 57.21px;
+            border-radius: 10px;
+            border: 5px solid rgba(76,112,240, 0.90);
+            left: 32%;
+            bottom:50px;
+        }
+    }
+    .leadDiv{
+        border-radius: 20px;
+        border: 10px solid rgba(76,112,240, 0.90);
+        position: absolute;
+        width: 230px;
+        height: 130px;
+        left: 100px;
+        bottom:-40px;
+        text-align: center;
+        display: flex; /* Use flexbox for centering */
+        justify-content: center; /* Horizontally center content */
+        align-items: center; /* Vertically center content */
+        gap: 6px;
+        @media (max-width: 1000px) and (min-width: 355px) {
+            width: 120.6px;
+            height: 55.21px;
+            border-radius: 10px;
+            border: 5px solid rgba(76,112,240, 0.90);
+            left: 245px;
+            bottom:120px;
+        }
+    }
+    .responseDiv{
+        border-radius: 20px;
+        border: 10px solid rgba(76,112,240, 0.90);
+        position: absolute;
+        width: 189px;
+        height: 100px;
+        left: 160px;
+        bottom:140px;
+        text-align: center;
+        display: flex; /* Use flexbox for centering */
+        justify-content: left; /* Horizontally center content */
+        align-items: center; /* Vertically center content */
+        @media (max-width: 1000px) and (min-width: 355px) {
+            width: 88.6px;
+            height: 41.21px;
+            border-radius: 10px;
+            border: 5px solid rgba(76,112,240, 0.90);
+          
+            left: 2px;
+            bottom:-5px;
+        }
+    }
+    .resRelative{
+        position: relative;
+    }
+    .resAb{
+        position: absolute;
+        bottom: -18px;
+        @media (max-width: 1000px) and (min-width: 355px) {
+            width: 50px;
+            height: 21px;
+            // border-radius: 10px;
+            // border: 5px solid rgba(76,112,240, 0.90);
+            // right: px;
+            // right: .02px;
+            bottom:5px;
+        }
+    }
+    .freeText{
+        font-family: Overpass;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: -0.05em;
+        text-align: center; 
+        @media (max-width: 1000px) and (min-width: 355px) {
+            font-size: 15px;
+            line-height: 16px;
+        }       
+    }
+    .freeP{
+        font-family: Overpass;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: #6B7B9C;
+@media (max-width: 1000px) and (min-width: 355px) {
+    font-size: 8.24px;
+} 
+    }
+    .resText{
+        font-family: Overpass;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 17.6px;
+        text-align: left; 
+        @media (max-width: 1000px) and (min-width: 355px) {
+            font-size: 8.24px;
+        }       
+    }
+    .awardText{
+        font-family: Overpass;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.2px;
+text-align: left;
+@media (max-width: 1000px) and (min-width: 355px) {
+    font-size: 7.35;
+}
+    }
+    
+    .blueBase{
+        width:100%;
+        height:710px;
+    }
+    .buleright{
+        width: 218px;
+        height: 207px;
+        opacity: 0.1px;
+        @media (max-width: 1000px) and (min-width: 355px) {
+            margin-left: 0;
+            margin-right: 0;
+            width: 120px;
+            height: 150px;   
+            position: absolute;
+                right: 5px;   
+        }
+        // padding-right:65px;
+        // padding-left: 25px;
+        // text-align: center;
+    }
+
+    .fle-center{
+        display: flex;
+        justify-content: right;
+        margin-left: auto;
+    }
+    .mainIO{
+        width: 100%;
+        align-items: center;
+        align-self: center;
+        margin-left: 128px;
+        @media (max-width: 1000px) and (min-width: 355px) {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+    .btn-align{
+        text-align: center;
+    }
+
+    
+
+    .mainBlueText{
+        font-family: Overpass;
+font-size: 64px;
+font-weight: 800;
+line-height: 76.8px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 49px;
+white-space: nowrap;
+padding-bottom: 0;
+@media (max-width: 1000px) and (min-width: 355px) {
+    font-size: 28.14px;  
+    line-height:33.77px;
+    z-index: 99;
+    text-align: center;
+}
+    }
+
+    .leorText{
+        font-family: Overpass;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+
+    color: #FFFFFF;
+    padding-bottom: 0;
+    }
+
+    .blueHutPosi{
+        position: absolute;
+        bottom: 10px;
+    }
+    
+    .iconMain{
+        margin-left: 91.17px;
+        margin-right: 91.17px;
+        width: 1259.66px;
+height: 717.28px;
+justify-content: center;
+align-items: center; /* Vertically center the content */
+display: flex;
+position: relative;
+@media (max-width: 1000px) and (min-width: 355px) {
+    margin-left: 9.17px;
+    margin-right: 9.17px;
+    width: 366px;  
+    height: 507.28px;  
+}
+    }
+    .wtap{
+        position: absolute;
+        top:0;
+        left: 300px;
+        width:116px;
+    height:116px;
+    @media (max-width: 1000px) and (min-width: 365px) {
+        width:55px;
+        height:55px;  
+        left: 100px;
+    }
+    }
+    .threeDot{
+        position: absolute;
+        top:100px;
+        width:220px;
+        height:220px;
+        @media (max-width: 1000px) and (min-width: 365px) {
+            width:100px;
+            height:100px;  
+            left: 160px;
+            top:20px;
+        }
+    }
+ .mroonFlower{
+    position: absolute;
+    top:0;
+    right: 300px;
+    width:103px;
+    height:103px;
+    @media (max-width: 1000px) and (min-width: 365px) {
+        width: 55px;
+        height: 55px;  
+        right: 40px;
+
+    }
+ }
+ .orangeFlow{
+    position: absolute;
+    top:100px;
+    left:100px;
+    width:192.43px;
+    height:192.43px;
+    @media (max-width: 1000px) and (min-width: 365px) {
+        width: 120px;
+        height: 120px;  
+        left: 0;
+        top:40px;
+    }
+ }
+ .colorFull{
+    position: absolute;
+    top:100px;
+    right:100px;
+    width:226.66px;
+height:226.66px;
+@media (max-width: 1000px) and (min-width: 365px) {
+    width: 85px;
+    height: 85px;  
+    right: 0;
+    top:50px;
+}
+ }
+ .tab{
+    position: absolute;
+    top:300px;
+    left:0px;
+    width:210px;
+    height:210px;
+    @media (max-width: 1000px) and (min-width: 365px) {
+        width: 100px;
+        height: 100px;  
+        left: 0;
+        top:150px;
+    }
+ }
+ .twitter{
+    position: absolute;
+    top:350px;
+    left:150px;
+    width:250px;
+    height:250px;
+    @media (max-width: 1000px) and (min-width: 365px) {
+        width: 150px;
+        height: 150px;  
+        left: -50px;
+       bottom: 25px;
+    }
+ }
+ .orgThree{
+    position: absolute;
+    top:350px;
+    right:110px;
+    width:200px;
+    height:200px;
+    @media (max-width: 1000px) and (min-width: 365px) {
+        width: 150px;
+        height: 150px;  
+     right: -40px;
+       bottom: 25px;
+    }
+ }
+ .bing{
+    position: absolute;
+    bottom: 50px;
+    left: 400px;
+    width:187px;
+    height:187px;
+    @media (max-width: 1000px) and (min-width: 365px) {
+        width:80px;
+        height:80px;  
+        left: 85px;
+        bottom: 85px;
+    }
+    
+ }
+ .align{
+    position: absolute;
+    bottom: 60px;
+    right: 180px;
+    @media (max-width: 1000px) and (min-width: 365px) {
+        width:180px;
+        height:180px;  
+        left: 150px;
+        bottom: -25px;
+    }
+  
+ }
+ .salesForce{
+    position: absolute;
+    bottom: -90px;
+    right: 300px;
+    @media (max-width: 1000px) and (min-width: 365px) {
+        width:130px;
+        height:130px;  
+        left: 110px;
+        bottom: -55px;
+    }
+ 
+ }
+ .quar{
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    width:120px;
+    height:120px;
+    @media (max-width: 1000px) and (min-width: 365px) {
+        width:50px;
+        height:50px;  
+        left: 130px;
+        top: 100px;
+    }
+ }
+ .pinkyello{
+    position: absolute;
+    bottom: -30px;
+    left: 150px;
+    width:250px;
+    height:250px;
+    @media (max-width: 1000px) and (min-width: 365px) {
+        width:150px;
+        height:150px;  
+        left: 10px;
+       bottom: -40px;
+    }
+ }
+ .moun{
+    position: absolute;
+    bottom: 80px;
+   right: 100px;
+    width:100px;
+    height:100px;
+    @media (max-width: 1000px) and (min-width: 365px) {
+        width:50px;
+        height:50px;  
+        right: 40px;
+       bottom:0px;
+    }
+ }
+    .iconTextSmall{
+        font-family: Overpass;
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+text-align: center;
+color: #4C70F0;
+@media (max-width: 1000px) and (min-width: 365px) {
+    line-height: 15px;
+    font-size: 10px;
+}
+    }
+    .iconMainText{
+        font-family: Overpass;
+font-size: 36px;
+font-weight: 800;
+line-height: 50.4px;
+text-align: center;
+color: #3C4257;
+@media (max-width: 1000px) and (min-width: 365px) {
+    line-height: 28.8px;
+    font-size: 22px;
+}
+    }
+    .iconBlow{
+        font-family: Overpass;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+@media (max-width: 1000px) and (min-width: 365px) {
+    line-height: 21px;
+    font-size: 14px;
+}
+    }
+    .womanDiv{
+        width:1220px;
+        height:499px;
+        @media (max-width: 1000px) and (min-width: 365px) {
+            width: 366px;    
+            margin-left: 5px;
+            height:750px;
+        }
+    }
+    .womenImg{
+
+            display: flex;
+            justify-content: center; /* Horizontally center */
+            align-items: center; /* Vertically center */
+            /* Optionally, you can add width and height properties to the container */
+            width: 100%; /* or specify a fixed width */
+            height: 100%; /* or specify a fixed height */
+          
+    }
+    .Tnr{
+        font-family: Overpass;
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+color: #4C70F0;
+    }
+    .tno{
+        font-family: Overpass;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 50.4px;
+        text-align: left;
+        color: #3C4257;
+        @media (max-width: 1000px) and (min-width: 365px) {
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 28.8px;
+            text-align: center;
+        }
+    }
+    .emet{
+        font-family: Overpass;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #6B7B9C;
+@media (max-width: 1000px) and (min-width: 365px) {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+}
+    }
+    .vb{
+        font-family: Overpass;
+font-size: 20px;
+font-weight: 800;
+line-height: 40px;
+text-align: left;
+color: #3C4257;
+border-left: 5px solid #EBECEF;
+border-radius: 3px;
+
+    }
+    .blueleftBorder{
+        border-left: 5px solid #4C70F0;
+border-radius: 3px;
+
+    }
+    .vl{
+        font-family: Overpass;
+font-size: 20px;
+font-weight: 800;
+line-height: 24px;
+text-align: left;
+color: #3C4257;
+
+    }
+    .womenp{
+        font-family: Overpass;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #6B7B9C;
+    }
+
+    .navBottom{
+        background-color: #23283B;
+        width: 100%;
+        height: 469px;
+        padding: 100px 0;
+        @media (max-width: 1000px) and (min-width: 365px) {
+           height: 100%;
+        }
+
+    }
+    .navb{
+        padding-top: 15px;
+        
+        width: 100%;
+       background-color:rgba(45, 49, 87, 0.15) ; 
+    }
+  table th{
+    font-family: Overpass;
+font-size: 14px;
+font-weight: 700;
+line-height: 17.72px;
+text-align: left;
+padding: 0px 30px 30px 30px;
+color: #FFFFFF;
+  }
+  table td{
+    font-family: Overpass;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 33.6px;
+    text-align: left;
+    padding: 0 30px;
+color: #bbbbbc;
+white-space: nowrap;
+  }
+  .navMan{
+    width: 80%;
+  }
+  .navData{
+    font-family: Overpass;
+font-size: 14px;
+font-weight: 400;
+line-height: 17.72px;
+text-align: center;
+color: #bbbbbc;
+  }
+  .codeimg{
+    @media (max-width: 1000px) and (min-width: 355px) {
+        width: 222px;
+        height: 104px;  
+    }
+ 
+  }
+  .womanClassImg{
+    @media (max-width: 1000px) and (min-width: 355px) {
+        width: 100%;
+        height: 190.43px;  
+    }
+  }
